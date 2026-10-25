@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Equipment Booking System</title>
+</head>
+
+<body style="margin:0; font-family:Arial,sans-serif; background-color:#101410; color:white;">
+
+    <!-- HEADER -->
+    <header style="background-color:#1b241c; padding:25px; text-align:center;">
+        <h1 style="color:#a8ff60; margin:0;">FLEXFIT</h1>
+        <p>GYM EQUIPMENT BOOKING SYSTEM</p>
+        <p>Book smarter. Train better.</p>
+
+        <nav>
+            <a href="#home" style="color:#a8ff60; margin:10px;">Home</a>
+            <a href="#equipment" style="color:#a8ff60; margin:10px;">Equipment</a>
+            <a href="#booking" style="color:#a8ff60; margin:10px;">Book Now</a>
+            <a href="#waitlist" style="color:#a8ff60; margin:10px;">Waitlist</a>
+            <a href="#history" style="color:#a8ff60; margin:10px;">My Bookings</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" style="padding:40px 20px; text-align:center;">
+        <h2 style="font-size:35px;">YOUR FITNESS, YOUR SCHEDULE.</h2>
+
+        <p style="color:#b8c0b8;">
+            Reserve your favourite gym equipment and plan your workout
+            without waiting in long queues.
+        </p>
+
+        <a href="#equipment"
+           style="display:inline-block; background-color:#a8ff60;
+           color:#101410; padding:14px 25px; text-decoration:none;
+           font-weight:bold; border-radius:6px;">
+            EXPLORE EQUIPMENT
+        </a>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section style="padding:20px;">
+        <h2 style="color:#a8ff60;">GYM DASHBOARD</h2>
+
+        <table width="100%" cellpadding="15" cellspacing="8">
+            <tr>
+                <td style="background:#202a20; border-radius:8px; text-align:center;">
+                    <h2 style="color:#a8ff60;">06</h2>
+                    <p>Total Equipment Types</p>
+                </td>
+
+                <td style="background:#202a20; border-radius:8px; text-align:center;">
+                    <h2 style="color:#a8ff60;">04</h2>
+                    <p>Available Equipment</p>
+                </td>
+
+                <td style="background:#202a20; border-radius:8px; text-align:center;">
+                    <h2 style="color:#a8ff60;">02</h2>
+                    <p>Busy Equipment Types</p>
+                </td>
+            </tr>
+        </table>
+
+        <p style="color:#8d998d; font-size:13px;">
+            Dashboard figures are illustrative sample data.
+        </p>
+    </section>
+
+    <!-- EQUIPMENT CATALOGUE -->
+    <section id="equipment" style="padding:20px;">
+        <h2 style="color:#a8ff60;">EQUIPMENT CATALOGUE</h2>
+
+        <p style="color:#b8c0b8;">
+            Browse the equipment and check its displayed availability.
+        </p>
+
+        <table width="100%" cellpadding="12" cellspacing="10">
+
+            <tr>
+                <td width="50%" style="background:#202a20; border-radius:10px;">
+                    <h2>🏋️</h2>
+                    <h3>Bench Press</h3>
+                    <p>Category: Strength Training</p>
+                    <p>Equipment ID: EQ101</p>
+                    <p>Status:
+                        <span style="color:#a8ff60;">Available</span>
+                    </p>
+                    <p>Duration: 30 minutes</p>
+                    <a href="#booking" style="color:#a8ff60;">Book Equipment →</a>
+                </td>
+
+                <td width="50%" style="background:#202a20; border-radius:10px;">
+                    <h2>🚴</h2>
+                    <h3>Exercise Bike</h3>
+                    <p>Category: Cardio</p>
+                    <p>Equipment ID: EQ102</p>
+                    <p>Status:
+                        <span style="color:#a8ff60;">Available</span>
+                    </p>
+                    <p>Duration: 30 minutes</p>
+                    <a href="#booking" style="color:#a8ff60;">Book Equipment →</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background:#202a20; border-radius:10px;">
+                    <h2>🏃</h2>
+                    <h3>Treadmill</h3>
+                    <p>Category: Cardio</p>
+                    <p>Equipment ID: EQ103</p>
+                    <p>Status:
+                        <span style="color:#ffb454;">In Use</span>
+                    </p>
+                    <p>Duration: 30 minutes</p>
+                    <a href="#waitlist" style="color:#a8ff60;">Join Waitlist →</a>
+                </td>
+
+                <td style="background:#202a20; border-radius:10px;">
+                    <h2>💪</h2>
+                    <h3>Dumbbell Set</h3>
+                    <p>Category: Free Weights</p>
+                    <p>Equipment ID: EQ104</p>
+                    <p>Status:
+                        <span style="color:#a8ff60;">Available</span>
+                    </p>
+                    <p>Duration: 30 minutes</p>
+                    <a href="#booking" style="color:#a8ff60;">Book Equipment →</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background:#202a20; border-radius:10px;">
+                    <h2>🦵</h2>
+                    <h3>Leg Press Machine</h3>
+                    <p>Category: Strength Training</p>
+                    <p>Equipment ID: EQ105</p>
+                    <p>Status:
+                        <span style="color:#ffb454;">In Use</span>
+                    </p>
+                    <p>Duration: 30 minutes</p>
+                    <a href="#waitlist" style="color:#a8ff60;">Join Waitlist →</a>
+                </td>
+
+                <td style="background:#202a20; border-radius:10px;">
+                    <h2>💪</h2>
+                    <h3>Lat Pulldown Machine</h3>
+                    <p>Category: Strength Training</p>
+                    <p>Equipment ID: EQ106</p>
+                    <p>Status:
+                        <span style="color:#a8ff60;">Available</span>
+                    </p>
+                    <p>Duration: 30 minutes</p>
+                    <a href="#booking" style="color:#a8ff60;">Book Equipment →</a>
+                </td>
+            </tr>
+
+        </table>
+    </section>
+
+    <!-- AVAILABILITY -->
+    <section id="availability" style="padding:20px;">
+        <h2 style="color:#a8ff60;">EQUIPMENT AVAILABILITY</h2>
+
+        <table width="100%" border="1" cellpadding="12"
+               style="border-collapse:collapse; border-color:#344234;">
+
+            <tr style="background:#273427;">
+                <th>Equipment</th>
+                <th>9 AM</th>
+                <th>10 AM</th>
+                <th>11 AM</th>
+                <th>12 PM</th>
+            </tr>
+
+            <tr>
+                <td>Bench Press</td>
+                <td>Available</td>
+                <td>Booked</td>
+                <td>Available</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Exercise Bike</td>
+                <td>Booked</td>
+                <td>Available</td>
+                <td>Available</td>
+                <td>Booked</td>
+            </tr>
+
+            <tr>
+                <td>Treadmill</td>
+                <td>Booked</td>
+                <td>Booked</td>
+                <td>Available</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Dumbbell Set</td>
+                <td>Available</td>
+                <td>Available</td>
+                <td>Booked</td>
+                <td>Available</td>
+            </tr>
+
+        </table>
+
+        <p style="color:#8d998d; font-size:13px;">
+            Sample schedule for demonstration purposes only.
+        </p>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section id="booking" style="padding:25px;">
+        <h2 style="color:#a8ff60;">BOOK YOUR EQUIPMENT</h2>
+
+        <form action="#booking" method="get"
+              style="background:#202a20; padding:25px; border-radius:10px;">
+
+            <label for="member">Member Name</label><br><br>
+            <input type="text" id="member" name="member"
+                   placeholder="Enter your full name" required
+                   style="width:95%; padding:12px;">
+            <br><br>
+
+            <label for="memberid">Member ID</label><br><br>
+            <input type="text" id="memberid" name="memberid"
+                   placeholder="Enter your member ID" required
+                   style="width:95%; padding:12px;">
+            <br><br>
+
+            <label for="equipment">Select Equipment</label><br><br>
+
+            <select id="equipment" name="equipment" required
+                    style="width:100%; padding:12px;">
+                <option value="">Choose Equipment</option>
+                <option>Bench Press</option>
+                <option>Exercise Bike</option>
+                <option>Treadmill</option>
+                <option>Dumbbell Set</option>
+                <option>Leg Press Machine</option>
+                <option>Lat Pulldown Machine</option>
+            </select>
+
+            <br><br>
+
+            <label for="date">Booking Date</label><br><br>
+            <input type="date" id="date" name="date" required
+                   style="width:95%; padding:12px;">
+            <br><br>
+
+            <label for="slot">Select Time Slot</label><br><br>
+
+            <select id="slot" name="slot" required
+                    style="width:100%; padding:12px;">
+                <option value="">Choose a Time Slot</option>
+                <option>9:00 AM - 9:30 AM</option>
+                <option>10:00 AM - 10:30 AM</option>
+                <option>11:00 AM - 11:30 AM</option>
+                <option>12:00 PM - 12:30 PM</option>
+                <option>1:00 PM - 1:30 PM</option>
+                <option>2:00 PM - 2:30 PM</option>
+                <option>3:00 PM - 3:30 PM</option>
+                <option>4:00 PM - 4:30 PM</option>
+                <option>5:00 PM - 5:30 PM</option>
+            </select>
+
+            <br><br>
+
+            <label for="duration">Workout Duration</label><br><br>
+
+            <select id="duration" name="duration"
+                    style="width:100%; padding:12px;">
+                <option>30 Minutes</option>
+                <option>60 Minutes</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit"
+                    style="background:#a8ff60; color:#101410;
+                    padding:14px 25px; border:none; font-weight:bold;
+                    cursor:pointer;">
+                SUBMIT BOOKING
+            </button>
+
+        </form>
+    </section>
+
+    <!-- WAITLIST -->
+    <section id="waitlist" style="padding:25px;">
+        <h2 style="color:#a8ff60;">WAITLIST / QUEUE MANAGEMENT</h2>
+
+        <p style="color:#b8c0b8;">
+            If your preferred equipment is occupied, you can fill out
+            this form to request a place in the queue.
+        </p>
+
+        <form action="#waitlist" method="get"
+              style="background:#202a20; padding:25px; border-radius:10px;">
+
+            <label for="waitname">Member Name</label><br><br>
+            <input type="text" id="waitname" name="waitname" required
+                   placeholder="Enter your name"
+                   style="width:95%; padding:12px;">
+            <br><br>
+
+            <label for="waitequipment">Select Equipment</label><br><br>
+
+            <select id="waitequipment" name="waitequipment" required
+                    style="width:100%; padding:12px;">
+                <option value="">Choose Equipment</option>
+                <option>Treadmill</option>
+                <option>Leg Press Machine</option>
+                <option>Bench Press</option>
+                <option>Exercise Bike</option>
+                <option>Dumbbell Set</option>
+                <option>Lat Pulldown Machine</option>
+            </select>
+
+            <br><br>
+
+            <label for="waitdate">Preferred Date</label><br><br>
+            <input type="date" id="waitdate" name="waitdate" required
+                   style="width:95%; padding:12px;">
+            <br><br>
+
+            <label for="waitslot">Preferred Time Slot</label><br><br>
+
+            <select id="waitslot" name="waitslot" required
+                    style="width:100%; padding:12px;">
+                <option>9:00 AM - 9:30 AM</option>
+                <option>10:00 AM - 10:30 AM</option>
+                <option>11:00 AM - 11:30 AM</option>
+                <option>12:00 PM - 12:30 PM</option>
+                <option>1:00 PM - 1:30 PM</option>
+                <option>2:00 PM - 2:30 PM</option>
+                <option>3:00 PM - 3:30 PM</option>
+                <option>4:00 PM - 4:30 PM</option>
+                <option>5:00 PM - 5:30 PM</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit"
+                    style="background:#a8ff60; color:#101410;
+                    padding:14px 25px; border:none; font-weight:bold;
+                    cursor:pointer;">
+                JOIN WAITLIST
+            </button>
+
+        </form>
+
+        <h3>Current Queue</h3>
+
+        <table width="100%" border="1" cellpadding="12"
+               style="border-collapse:collapse; border-color:#344234;">
+            <tr>
+                <th>Queue Position</th>
+                <th>Equipment</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Treadmill</td>
+                <td>Waiting</td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Leg Press Machine</td>
+                <td>Waiting</td>
+            </tr>
+        </table>
+
+        <p style="color:#8d998d; font-size:13px;">
+            Queue entries are illustrative examples.
+        </p>
+    </section>
+
+    <!-- CANCELLATION -->
+    <section id="cancellation" style="padding:25px;">
+        <h2 style="color:#a8ff60;">CANCEL A BOOKING</h2>
+
+        <form action="#cancellation" method="get"
+              style="background:#202a20; padding:25px; border-radius:10px;">
+
+            <label for="cancelid">Booking ID</label><br><br>
+
+            <input type="text" id="cancelid" name="cancelid"
+                   placeholder="Enter your booking ID" required
+                   style="width:95%; padding:12px;">
+
+            <br><br>
+
+            <label for="cancelreason">Reason for Cancellation</label><br><br>
+
+            <select id="cancelreason" name="cancelreason"
+                    style="width:100%; padding:12px;">
+                <option>Change of Plans</option>
+                <option>Schedule Conflict</option>
+                <option>Unable to Attend</option>
+                <option>Other</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit"
+                    style="background:#ff7474; color:#101410;
+                    padding:14px 25px; border:none; font-weight:bold;
+                    cursor:pointer;">
+                CANCEL BOOKING
+            </button>
+
+        </form>
+
+        <p style="color:#b8c0b8;">
+            Enter the booking ID associated with your reservation.
+        </p>
+    </section>
+
+    <!-- USAGE HISTORY -->
+    <section id="history" style="padding:25px;">
+        <h2 style="color:#a8ff60;">MY USAGE HISTORY</h2>
+
+        <p style="color:#b8c0b8;">
+            Review sample records of previously used gym equipment.
+        </p>
+
+        <table width="100%" border="1" cellpadding="12"
+               style="border-collapse:collapse; border-color:#344234;">
+
+            <tr style="background:#273427;">
+                <th>Booking ID</th>
+                <th>Equipment</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>BK1001</td>
+                <td>Bench Press</td>
+                <td>15 Oct 2026</td>
+                <td>9:00 AM</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>BK1002</td>
+                <td>Exercise Bike</td>
+                <td>17 Oct 2026</td>
+                <td>11:00 AM</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>BK1003</td>
+                <td>Dumbbell Set</td>
+                <td>19 Oct 2026</td>
+                <td>3:00 PM</td>
+                <td>Cancelled</td>
+            </tr>
+
+        </table>
+
+        <p style="color:#8d998d; font-size:13px;">
+            These are static sample records, not actual member history.
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="background:#1b241c; padding:25px; text-align:center;">
+        <h3 style="color:#a8ff60;">FLEXFIT</h3>
+
+        <p>Gym Equipment Booking System</p>
+        <p>Plan your workout. Make every minute count.</p>
+
+        <p style="color:#8d998d; font-size:12px;">
+            Academic Project | HTML Prototype
+        </p>
+    </footer>
+
+</body>
+</html>
